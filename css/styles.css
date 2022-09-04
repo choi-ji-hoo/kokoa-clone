@@ -38,12 +38,13 @@ opacity: 0.8;
   font-size: 18px;
   border-bottom: 2px solid rgba(0,0,0,0.2);
   margin-bottom: 25px;
+  transition: border-color 0.3 ease-in-out;
 }
 
 #login-from input::placeholder {
   color: rgba(0, 0, 0, 0.4);
 }
 
-#login-from input:focus{
+#login-form input:focus {
   border-color: var(--yellow);
 }
